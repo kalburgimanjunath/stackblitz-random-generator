@@ -13,7 +13,7 @@ export default function Navbar() {
     'Budget Calculator',
   ];
   return (
-    <div>
+    <div className="absolute top-0 left-0 w-full bg-pink flex">
       {navbaritems &&
         navbaritems.map((item) => {
           return <div>{item}</div>;
